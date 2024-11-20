@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "ES2023", // Updated target to ES2023
+    "lib": ["dom", "dom.iterable", "esnext"], // No change; "esnext" covers ES2023
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    "module": "esnext", // Already aligned with ES2023 modules
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,

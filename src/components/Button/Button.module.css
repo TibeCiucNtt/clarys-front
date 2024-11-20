@@ -1,0 +1,52 @@
+
+.base {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: none;
+  }
+  
+  /* Primary Button Styles */
+  .primary {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Secondary Button Styles */
+  .secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  .secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Link Style */
+  .link {
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .link:hover {
+    color: #0056b3;
+  }
+  
+  /* Disabled State */
+  .disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+  }
+  
